@@ -121,7 +121,6 @@ def reserve_hotel(checkin_date: str, checkout_date: str, hotel_name: str, city: 
         city=city,
         cost=randint(300, 1500),
     )
-
     save_reservation(reservation)
     return reservation
 

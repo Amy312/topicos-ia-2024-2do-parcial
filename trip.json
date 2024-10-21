@@ -110,5 +110,101 @@
         "destination": "Oruro",
         "cost": 431,
         "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "BUS",
+        "date": "2023-10-30",
+        "departure": "La Paz",
+        "destination": "Oruro",
+        "cost": 83,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2023-11-10",
+        "departure": "ciudad de salida",
+        "destination": "Tarija",
+        "cost": 363,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "BUS",
+        "date": "2023-10-30",
+        "departure": "La Paz",
+        "destination": "Oruro",
+        "cost": 140,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2023-11-12",
+        "departure": "La Paz",
+        "destination": "Santa Cruz",
+        "cost": 322,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "checkin_date": "2023-11-12",
+        "checkout_date": "2023-11-22",
+        "hotel_name": "Hotel Camino Real",
+        "city": "Santa Cruz",
+        "cost": 487,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "reservation_time": "2023-11-13T21:00:00",
+        "restaurant": "Caf\u00e9 del Mundo",
+        "city": "Santa Cruz",
+        "dish": "not specified",
+        "cost": 122,
+        "reservation_type": "RestaurantReservation"
+    },
+    {
+        "checkin_date": "2023-11-20",
+        "checkout_date": "2023-11-30",
+        "hotel_name": "Hotel Repostero",
+        "city": "Oruro",
+        "cost": 1254,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "trip_type": "BUS",
+        "date": "2023-11-20",
+        "departure": "La Paz",
+        "destination": "Oruro",
+        "cost": 152,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2023-10-24",
+        "departure": "La Paz",
+        "destination": "Tarija",
+        "cost": 513,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2024-01-15",
+        "departure": "La Paz",
+        "destination": "Tarija",
+        "cost": 532,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "checkin_date": "2024-01-15",
+        "checkout_date": "2024-01-20",
+        "hotel_name": "Hotel Los Ceibos",
+        "city": "Tarija",
+        "cost": 642,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "trip_type": "BUS",
+        "date": "2024-01-20",
+        "departure": "Tarija",
+        "destination": "La Paz",
+        "cost": 81,
+        "reservation_type": "TripReservation"
     }
 ]
