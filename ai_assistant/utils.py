@@ -39,3 +39,14 @@ def save_reservation(
         json.dump(reservations, file, indent=4, default=custom_serializer)
 
     print(f"saved reservation!")
+
+def load_trip_data(file_path: str = "trip.json") -> list:
+    """
+    Load trip data from a JSON file.
+    Parameters:
+    - file_path (str): Path to the trip.json file. Defaults to 'trip.json'.
+    Returns:
+    - list: A list of dictionaries representing the trip activities.
+    """
+    with open(file_path, "r") as f:
+        return json.load(f)
