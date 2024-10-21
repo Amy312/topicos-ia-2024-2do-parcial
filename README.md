@@ -1,5 +1,20 @@
 # Asistente de Viajes - Segundo Parcial - Topicos IA 2024
 
+## Estudiante
+**Nombre**: Ambar Monica Rojas Morales
+**Código**: 61375
+
+### Modificaciones Clave
+**Prompts Personalizados**: Se ajustaron los prompts para que el asistente siempre comience con un "Thought" claro y use herramientas específicas para todas las acciones, evitando respuestas implícitas.
+
+**Formato Estricto de Acción**: El asistente sigue un formato específico para ejecutar las herramientas en JSON válido, asegurando consistencia y precisión.
+
+**Uso Obligatorio de Herramientas**: El asistente siempre utiliza herramientas (para vuelos, buses, hoteles, restaurantes y resúmenes) para cualquier reserva o consulta, nunca responde sin antes ejecutar la acción requerida.
+
+**Consistencia de Idioma**: El asistente responde en el idioma del usuario (español o inglés) para garantizar claridad en las interacciones.
+
+Este enfoque garantiza que el asistente maneje reservas y consultas de manera precisa y segura, utilizando únicamente datos y herramientas verificadas.
+
 Este repositorio contiene el código base para la 2da evaluacion parcial. El proyecto trata de un 
 agente AI para la gestión y planificación de viajes de turismo. El agente tiene acceso a 
 distintas fuentes de información sobre atracciones turísticas bolivianas (Travel guide), y a otras herramientas
